@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 /* header */
 
@@ -320,5 +321,37 @@ main {
     .copyright {
         font-size: 0.8rem;
     }
+}
+form {
+    max-width: 500px;
+    margin: auto;
+}
+h1 {
+    color: white;
+}
+label {
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1669c1;
 }
 /* Footer */
